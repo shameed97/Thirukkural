@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:background="@drawable/back_image"
+    android:gravity="center"
+    tools:context=".WelcomeActivity">
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card"
+        android:layout_width="match_parent"
+        android:layout_height="380dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="0dp"
+        app:cardBackgroundColor="#B08B8989"
+        app:cardPreventCornerOverlap="false"
+        app:cardUseCompatPadding="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/t1L"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="45dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="45dp"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:paddingBottom="10dp"
+                android:text="@string/thamilar"
+                android:textColor="@color/white_"
+                android:textSize="28sp" />
+
+
+            <TextView
+                android:id="@+id/t1I"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_alignTop="@+id/t1L"
+                android:layout_marginTop="40dp"
+                android:layout_marginRight="40dp"
+                android:paddingTop="10dp"
+                android:textStyle="bold"
+                android:paddingBottom="10dp"
+                android:text="@string/arithal"
+                android:textAlignment="center"
+                android:textColor="@color/white_"
+                android:textSize="20sp" />
+            <TextView
+                android:id="@+id/t1D"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_alignTop="@+id/t1I"
+                android:layout_marginTop="54dp"
+                android:layout_marginRight="40dp"
+                android:paddingTop="10dp"
+                android:textStyle="bold"
+                android:paddingBottom="10dp"
+                android:text="@string/name"
+                android:textAlignment="center"
+                android:textColor="@color/white_"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/t1J"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="45dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginRight="45dp"
+                android:paddingTop="10dp"
+                android:layout_alignTop="@+id/t1D"
+                android:paddingBottom="10dp"
+                android:textStyle="bold"
+                android:text="@string/college"
+                android:textAlignment="center"
+                android:textColor="@color/white_"
+                android:textSize="27sp" />
+
+
+            <Button
+                android:layout_width="145dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/event_button"
+                android:text="@string/but_name"
+                android:gravity="center"
+                android:textStyle="italic"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="15dp"
+                android:textAllCaps="false"
+                android:onClick="List"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

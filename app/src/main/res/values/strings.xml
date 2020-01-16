@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Thirukkural</string>
+    <string name="todo">TODO</string>
+    <string name="n">தமிழர் வேதம்\n(அறிதலும் புரிதலும்)</string>
+    <string name="thamilar">தமிழர் வேதம்</string>
+    <string name="arithal">(அறிதலும் புரிதலும்)</string>
+    <string name="name">சை. அல் முபீன்</string>
+    <string name="college">இமாகுலேட் மகளிர் கல்லூரி, கடலூர்</string>
+    <string name="but_name">அதிகாரங்கள்</string>
+    <string name="athigaram_nmes">Athigaram Nmes...</string>
+    <string name="thiru">திருக்குறள்</string>
+    <string name="kural">குறள்</string>
+    <string name="muva">மு.வ உரை:</string>
+</resources>
